@@ -1,15 +1,16 @@
 /*Header*/
-head{
-    background-color: aqua;
+
+header {
+ background-color: aqua;
 }
 
-/*Main*/
-main{
+/*Main content*/
+main {
     background-color: blueviolet;
 }
 
 /*Footer*/
 
-footer{
+footer {
     background-color: brown;
 }
