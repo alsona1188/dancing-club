@@ -28,7 +28,12 @@ body{
 /*Header*/
 
 header {
- background-color: aqua;
+ background-color: #FBF8FF;
+ padding: 0 1rem;
+ position: fixed;
+ z-index: 99;
+ width: 100%;
+ box-shadow: 0 2px 3px #3E1C41;
 }
 
 h1 {
@@ -37,7 +42,7 @@ h1 {
 
 /*Main content*/
 main {
-    background-color: #FCF7FF;
+    background-color: #D3FBD8;
     /*Make main element takes any surplus place and push the footer down*/
     flex: 1 0 auto; 
 }
@@ -45,5 +50,5 @@ main {
 /*Footer*/
 
 footer {
-    background-color: brown;
+    background-color: #7A7585;
 }
