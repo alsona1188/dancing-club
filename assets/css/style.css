@@ -36,8 +36,16 @@ header {
  box-shadow: 0 2px 3px #3E1C41;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Great Vibes', sans-serif;
+    letter-spacing: 2px;
+    color: #A51166;
+   
 }
 
 /*Main content*/
