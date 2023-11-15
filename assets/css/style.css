@@ -33,19 +33,36 @@ header {
  position: fixed;
  z-index: 99;
  width: 100%;
- box-shadow: 0 2px 3px #3E1C41;
+ box-shadow: 0 2px 3px #731D51;
 }
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: #731D51;
 }
 
 h1 {
     font-family: 'Great Vibes', sans-serif;
     letter-spacing: 2px;
-    color: #A51166;
+    color: #731D51;
    
+}
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 0.7em;
+}
+
+.active:hover {
+     color: #E5924B;
+}
+.active {
+    border-bottom: 1px solid #E5924B;
 }
 
 /*Main content*/
