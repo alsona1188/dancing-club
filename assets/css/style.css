@@ -123,6 +123,9 @@ footer {
         width: auto;
    
 }
+#social-media i {
+    color: #731D51;
+}
 .address {
     padding: 10px 5px 5px 5px;
     display: flex;
