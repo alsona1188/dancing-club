@@ -91,6 +91,7 @@ nav{
 }
 .nav-drop-label{
     font-size: 2rem;
+    color: #731D51;
 }
 
 /*Main content*/
@@ -108,6 +109,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     flex-direction:row;
+    
     
       
 }
@@ -164,7 +166,7 @@ width: auto;
     }
 
     #logo{
-        font-size: 290%;
+        font-size: 270%;
         padding-top: 0.6rem;
         margin: 0 0.5rem;
     }
