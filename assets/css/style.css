@@ -108,9 +108,7 @@ footer {
     background-color: #FBF8FF;
     display: flex;
     justify-content: space-evenly;
-    flex-direction:row;
-    
-    
+      
       
 }
 
@@ -122,7 +120,7 @@ footer {
         font-size: 130%;
         padding: 5%;
         color: #731D51; 
-        width: auto;
+        
    
 }
 #social-media i {
@@ -132,13 +130,18 @@ footer {
     padding: 10px 0 0 5px;
     display: flex;
     color: #731D51;
-    width: auto;
+    
 }
+
 .contact{
 padding: 10px 0 0 5px;
 color: #731D51;
-width: auto;
 
+
+}
+footer a {
+    text-decoration: none;
+    color: #731D51;
 }
 
 
