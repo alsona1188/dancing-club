@@ -127,13 +127,13 @@ footer {
     color: #731D51;
 }
 .address {
-    padding: 10px 5px 5px 5px;
+    padding: 10px 0 0 5px;
     display: flex;
     color: #731D51;
     width: auto;
 }
 .contact{
-padding: 10px 0;
+padding: 10px 0 0 5px;
 color: #731D51;
 width: auto;
 
