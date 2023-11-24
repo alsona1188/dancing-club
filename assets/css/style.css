@@ -105,7 +105,38 @@ main {
 
 footer {
     background-color: #FBF8FF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    
+      
 }
+
+#social-media {
+
+        padding: 10px 0;
+        list-style-type: none;
+        display: block;
+        font-size: 130%;
+        padding: 5%;
+        color: #731D51; 
+        width: auto;
+   
+}
+.address {
+    padding: 10px 5px 5px 5px;
+    display: flex;
+    color: #731D51;
+    width: auto;
+}
+.contact{
+padding: 10px 0;
+color: #731D51;
+width: auto;
+
+}
+
+
 
 /* Media query tablets and larger (768px and up)*/
 @media  screen and (min-width: 768px) {
