@@ -128,4 +128,21 @@ footer {
     .nav-drop-label {
           display: none;
     }
+
+    #logo{
+        font-size: 290%;
+        padding-top: 0.6rem;
+        margin: 0 0.5rem;
+    }
+
+    /*main content*/
+    main{
+        /*Push main content down*/
+        padding-top: 1.6rem;
+
+    }
+    
+
+
+
 }
