@@ -96,10 +96,18 @@ nav{
 
 /*Main content*/
 main {
-    background-color: #D3FBD8;
+    
     /*Make main element takes any surplus place and push the footer down*/
     flex: 1 0 auto; 
-    margin-top: 46px;
+    margin-top: 36px;
+}
+
+/* main_photo section */
+
+#main_photo {
+    height: 550px;
+    width: 100%;
+    background: url(../images/group_dance.jpeg) no-repeat center center/cover;
 }
 
 /*Footer*/
