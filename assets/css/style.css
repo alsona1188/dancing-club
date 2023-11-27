@@ -104,7 +104,7 @@ main {
 /* main_photo section */
 
 #main_photo {
-    height: 550px;
+    height: 700px;
     width: 100%;
     background: url(../images/lovely-young-couple-dancing-together-party_495423-58545.jpg) no-repeat center center/cover;
     position: relative;
@@ -112,8 +112,8 @@ main {
 
 #quote{
    background-color: rgba(174,109,171,.7);
-   font-size: 130%;
-   width: 230px;
+   font-size: 150%;
+   width: 280px;
    position: absolute;
    bottom: 50px;
    padding-top: 15px;
