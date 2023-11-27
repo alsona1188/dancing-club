@@ -23,7 +23,12 @@ body{
     
 }
 
+h1, h3, h4 {
+    font-family: 'Great Vibes', sans-serif;
+    letter-spacing: 2px;
+    color: #731D51;
 
+}
 
 /*Header*/
 
@@ -44,12 +49,6 @@ header a {
     color: #731D51;
 }
 
-h1 {
-    font-family: 'Great Vibes', sans-serif;
-    letter-spacing: 2px;
-    color: #731D51;
-   
-}
 
 #menu{
     font-size: 110%;
@@ -108,8 +107,22 @@ main {
     height: 550px;
     width: 100%;
     background: url(../images/lovely-young-couple-dancing-together-party_495423-58545.jpg) no-repeat center center/cover;
+    position: relative;
 }
 
+#quote{
+   background-color: rgba(174,109,171,.7);
+   font-size: 130%;
+   width: 230px;
+   position: absolute;
+   bottom: 50px;
+   padding-top: 15px;
+   padding-left: 10px;
+}
+
+#quote > h3, #quote > h4 {
+    color: #ffffff;
+}
 /*Footer*/
 
 footer {
@@ -188,13 +201,30 @@ footer a {
         padding-top: 1.6rem;
 
     }
+
+    /* Main Image */
+
+    #quote{
+        width: 55%;
+        right: 60px;
+        font-size: 150%;
+        
+    }
     
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid #E5924B;
             color: #E5924B;
         }
-            
+           
+                 /* Main Image */
+        
+                 #quote {
+                     width: 40%;
+                     right: 80px;
+                     font-size: 160%;
+        
+                 }
        
     }
 
