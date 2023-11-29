@@ -178,7 +178,7 @@ hr {
     background: url(../images/groom-bride-dance.jpg) no-repeat top center;
   
     height: 200px;
-    width: 100%;
+    width: 300px;
 }
 
 /*Who can register section*/
@@ -190,13 +190,14 @@ hr {
 
 #type_who div{
   color:#FBF8FF;
-  background-color: rgba(51, 7, 49, 0.5);
+  background-color: rgba(88, 9, 90, 0.5);
   padding: 15px;
   text-align: center;
   border-radius: 50%;
   
 }
 
+/*Override the heading color */
 #type_who h3 {
     color: #FBF8FF;
 }
@@ -299,6 +300,7 @@ footer a {
     #wedding-classes {
         display: flex;   
         
+        
     }
          #tango>div,
          #bachata>div,
@@ -307,9 +309,30 @@ footer a {
             text-align: center;
             align-self: center;
          }
-   
 
+         #photo_one,
+         #photo_two,
+         #photo_three {
+            width: 90%;
+            
+         }
+    /*Who can register section*/
     
+                #who div {
+                  display: flex;
+                  padding: 10px;
+                  flex-basis: 350px;
+                  flex-grow: 1;
+        
+                }
+    
+                          #kids>div,
+                          #individ>div,
+                          #wedding>div {
+                              width: 100%;
+                              text-align: center;
+                              align-self: center;
+                          }
                  
 
 
@@ -341,13 +364,12 @@ footer a {
                                align-self: center;
                            }
        
-                                                        #tango,
-                                                        #bachata,
-                                                        #wedding-classes {
-                                                         display: flex;
+           #tango,
+           #bachata,
+           #wedding-classes {
+           display: flex;
                                                        
-                                                        
-    }
+           }
 
 
 
