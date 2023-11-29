@@ -153,6 +153,24 @@ hr {
     margin: 5px 0;
 }
 
+#photo_one{
+    background: url(../images/tango_1.jpg) no-repeat top center;
+   
+    height: 200px;
+    width: 300px;
+}
+#photo_two {
+    background: url(../images/bachata-praha-Bachata-dance.jpg) no-repeat top center;
+  
+    height: 200px;
+    width: 300px;
+}
+#photo_three {
+    background: url(../images/groom-bride-dance.jpg) no-repeat top center;
+  
+    height: 200px;
+    width: 300px;
+}
 
 /*Footer*/
 
