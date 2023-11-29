@@ -314,6 +314,16 @@ footer a {
     transform: scale(1.2);
 }
 
+/* Media query large or landscape phones (576px and up)*/
+
+@media screen and (min-width: 576px) {
+
+ #photos {
+    column-count: 2;
+    column-gap: 0;
+ }
+}
+
 /* Media query tablets and larger (768px and up)*/
 @media  screen and (min-width: 768px) {
     /* Header */
@@ -368,9 +378,9 @@ footer a {
     #bachata,
     #wedding-classes {
         display: flex;   
-        
-        
-    }
+         }
+
+
          #tango>div,
          #bachata>div,
          #wedding-classes>div{
@@ -379,12 +389,12 @@ footer a {
             align-self: center;
          }
 
-         #photo_one,
-         #photo_two,
-         #photo_three {
+        #photo_one,
+        #photo_two,
+        #photo_three {
             width: 90%;
-            
-         }
+             }
+
     /*Who can register section*/
     
                #type_who {
@@ -406,7 +416,16 @@ footer a {
                                      height: 100px;
                                     border: 5px solid rgb(228, 216, 153);
                                  }
+      
+    /* About Us photo section */
 
+    #photos {
+          column-count: 3;
+          column-gap: 0;
+    }
+
+                                 
+}
 
     
     @media screen and (min-width: 992px) {
