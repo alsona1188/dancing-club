@@ -23,7 +23,7 @@ body{
     
 }
 
-h1, h3, h4 {
+h1, h3, h4, h2 {
     font-family: 'Great Vibes', sans-serif;
     letter-spacing: 2px;
     color: #731D51;
@@ -259,6 +259,27 @@ footer a {
         font-size: 150%;
         
     }
+
+    /*products section*/
+    #tango,
+    #bachata,
+    #wedding-classes {
+        display: flex;   
+        
+    }
+         #tango>div,
+         #bachata>div,
+         #wedding-classes>div{
+            width: 100%;
+            text-align: center;
+            align-self: center;
+         }
+   
+
+    
+                 
+
+
     
     @media screen and (min-width: 992px) {
         #menu a:hover {
@@ -278,7 +299,21 @@ footer a {
                 height: 850px;
 
              }
+
+                           #tango>div,
+                           #bachata>div,
+                           #wedding-classes>div {
+                               width: 100%;
+                               text-align: center;
+                               align-self: center;
+                           }
        
+                                                        #tango,
+                                                        #bachata,
+                                                        #wedding-classes {
+                                                         display: flex;
+                                                       
+                                                        
     }
 
 
