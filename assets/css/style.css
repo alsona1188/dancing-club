@@ -31,17 +31,6 @@ h1, h3, h4, h2 {
 
 }
 
-h2:hover{
-    color: #E5924B;
-    transform: scale(1.5);
-}
-h3:hover {
-    color: #E5924B;
-    transform: scale(1.5);
-}
-
-
-
 /*Header*/
 
 header {
@@ -255,8 +244,25 @@ hr {
 
 /* About us text section */
 
-section {
-    margin-top: ;
+#about-us {
+    margin-top: 50px;
+}
+
+
+div h2, h3{
+    font-family: 'Merriweather', sans-serif;
+
+}
+
+#about-us-text, #our-founder {
+    text-align: justify;
+    width: 90%;
+    padding: 10px;
+}
+
+#about-us-text h2,
+#our-founder h2{
+    text-align: center;
 }
 
 
