@@ -123,6 +123,37 @@ main {
 #quote > h3, #quote > h4 {
     color: #ffffff;
 }
+
+/* Products section*/
+
+#products{
+    width: 90%;
+    margin: 20px auto;
+}
+#products h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+#tango>div,
+#bachata>div,
+#wedding-classes>div,
+#tango-photo>div,
+#bachata-photo>div,
+#wedding-photo>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#products p {
+    padding: 0 20px;
+}
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+
 /*Footer*/
 
 footer {
