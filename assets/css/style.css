@@ -283,14 +283,14 @@ div h2, h3{
 #signup-form {
     color: #FBF8FF;
     background-color: rgba(37, 33, 37, 0.7);
-    padding: 40px;
+    padding: 30px;
 
 }
 
 #signup-form>h2 {
     color: #dfc7e1;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #signup-form>p {
@@ -500,10 +500,11 @@ footer a {
                 #signup {
                     background-position: center;
                     position: relative;
+                    height: 900px;
                 }
         
                 #signup-form {
-                    max-width: 600px;
+                    max-width: 500px;
                     position: absolute;
                     left: 10%;
                     top: 150px;
