@@ -136,7 +136,10 @@ border-radius: 10px;
 
 #quote > p{
     color: #ffffff;
-    text-shadow: 2px 2px #a59b6a;
+   
+    font-family: 'Great Vibes', sans-serif;
+
+    font-size: 34px;
    
 }
 
@@ -235,7 +238,7 @@ hr {
 #type_who h3 {
     color: #FBF8FF;
     font-family: 'Merriweather',sans-serif;
-    
+
        
 }
 
@@ -341,9 +344,14 @@ footer a {
     /* Main Image */
 
     #quote{
-        width: 55%;
+        width: 60%;
         right: 60px;
         font-size: 150%;
+        
+    }
+
+    #quote> p {
+        font-size: 45px;
         
     }
 
