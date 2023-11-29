@@ -110,7 +110,7 @@ main {
     
     /*Make main element takes any surplus place and push the footer down*/
     flex: 1 0 auto; 
-    margin-top: 36px;
+    margin-top: 40px;
 }
 
 /* main_photo section */
@@ -251,6 +251,12 @@ hr {
 
 #photos {
     line-height: 0;
+}
+
+/* About us text section */
+
+section {
+    margin-top: ;
 }
 
 
