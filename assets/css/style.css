@@ -108,7 +108,7 @@ main {
 /* main_photo section */
 
 #main_photo {
-    height: 700px;
+    height: 300px;
     width: 100%;
     background: url(../images/lovely-young-couple-dancing-together-party_495423-58545.jpg) no-repeat center center/cover;
     position: relative;
@@ -116,10 +116,10 @@ main {
 
 #quote{
    background-color: rgba(174,109,171,.7);
-   font-size: 150%;
-   width: 280px;
+   font-size: 90%;
+   width: 200px;
    position: absolute;
-   bottom: 50px;
+   bottom: 20px;
    padding-top: 15px;
    padding-left: 20px;
 border-radius: 10px;
@@ -131,7 +131,7 @@ border-radius: 10px;
    
     font-family: 'Great Vibes', sans-serif;
 
-    font-size: 34px;
+    font-size: 25px;
    
 }
 
@@ -243,13 +243,16 @@ hr {
 
 #photos {
     line-height: 0;
+    margin: 10px;
 }
 
 /* About us text section */
 
 #about-us {
     margin-top: 50px;
+    
 }
+
 
 
 div h2, h3{
@@ -259,8 +262,9 @@ div h2, h3{
 
 #about-us-text, #our-founder {
     text-align: justify;
-    width: 90%;
-    padding: 10px;
+    align-self: center;
+    width: 100%;
+    padding: 20px;
 }
 
 #about-us-text h2,
@@ -349,6 +353,7 @@ footer {
 }
 #social-media i {
     color: #731D51;
+    padding: 5px 15px 5px 5px;
 }
 .address {
     padding: 10px 0 0 5px;
@@ -448,22 +453,28 @@ footer a {
     #tango,
     #bachata,
     #wedding-classes {
-        display: flex;   
+        display: flex; 
+        text-align: center;
+        align-self: center;  
          }
 
 
          #tango>div,
          #bachata>div,
          #wedding-classes>div{
+           display: block;
             width: 100%;
-            text-align: center;
-            align-self: center;
+            table-layout: fixed;
+            padding: 10px 10px 20px 20px;
+
          }
 
         #photo_one,
         #photo_two,
         #photo_three {
-            width: 90%;
+            width: 120%;
+            align-items: center;
+            padding: 0;
              }
 
     /*Who can register section*/
