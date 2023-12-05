@@ -99,7 +99,7 @@ Users of this website will find a general information about type of classes does
 <br>
 <hr>
 
-### Validator Testing and Lighthouse
+## Validator Testing and Lighthouse
 
 - HTML
   - No errors were returned when passing through the official W3C validator.
@@ -127,9 +127,13 @@ Users of this website will find a general information about type of classes does
   ![Google Lighthouse](assets/images/lighthouse.PNG)
   
   <br>
+
+  ## Bugs
+  - When I deployed the project i realised that the menu was not working properly becuase at the signup.html file, the **href="signup.html" class="active"**, i have forgotton to give the value active.
+   
   <hr>
 
-## Deployment
+  ## Deployment
 <br>
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
