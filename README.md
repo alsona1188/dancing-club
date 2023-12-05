@@ -5,7 +5,7 @@ Users of this website will find a general information about type of classes does
 
 <br>
 
-![Dancing club screenshot for all devices](assets/images/screenshots_of_website.PNG)
+![Dancing club screenshot for all devices](assets/images/responsive_screenshot.PNG)
 
 <br>
 
@@ -28,7 +28,7 @@ Users of this website will find a general information about type of classes does
 - **The main Photo**
 
   - The main photo includes a photograph with a nice quote.
-  - This section introduces the user to Dancing Club with an eye catching animation to grab their attention.
+  - This section introduces the user to Dancing Club with an eye catching animation to grab their attention. As soon as you open the website, the user has a clear idea of what is the website for.
 
 ![Main Photo](assets/images/main_photo_quote.PNG)
 
@@ -40,7 +40,7 @@ Users of this website will find a general information about type of classes does
   - This section shows the viewers what dance classes are offered in the school.
   - There are 3 classes that are offered from the school, wedding classes, bachata and tango.
 
-![What classes we offer](assets/images/dance_classes_tango_bachata_wedding.PNG)
+![What classes we offer](assets/images/dance_classes.PNG)
 
 <br>
 <hr>
@@ -71,7 +71,7 @@ Users of this website will find a general information about type of classes does
   
   - This section shows the users the values of the school and the founder of the school. She is also the main teacher specialized for the wedding courses.
 
-![Values and founder](assets/images/values_and_founder.PNG)
+![Values and founder](assets/images/about_us_text.PNG)
 
   - In this section there is a gallery of photos from different groups.
   
@@ -99,12 +99,32 @@ Users of this website will find a general information about type of classes does
 <br>
 <hr>
 
-### Validator Testing
+### Validator Testing and Lighthouse
 
 - HTML
   - No errors were returned when passing through the official W3C validator.
+  
+  <br>
+  
+![HTML Validator](assets/images/validator-html.PNG)
+
+<br>
+
 - CSS
   - No errors were found when passing through the official Jigsaw validator.
+<br>
+
+![CSS Validator](assets/images/validator-css.PNG)
+
+<br>
+
+- Lighthouse
+  - Performance - How the page performs whilst loading.
+  - Accessibility - Is the site acccessible for all users and how can it be improved.
+  - Best Practices - Site conforms to industry best practices.
+  - SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+  
+  ![Google Lighthouse](assets/images/lighthouse.PNG)
   
   <br>
   <hr>
@@ -116,8 +136,8 @@ This section should describe the process you went through to deploy the project 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - From the source section drop-down menu, select the main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - [Dancing Club](https://alsona1188.github.io/dancing-club/index.html)
 
