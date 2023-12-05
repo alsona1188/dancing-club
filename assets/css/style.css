@@ -27,8 +27,7 @@ h1, h3, h4, h2 {
     font-family: 'Great Vibes', sans-serif;
     letter-spacing: 2px;
     color: #731D51;
-
-
+    text-align: center;
 }
 
 /*Header*/
@@ -168,31 +167,33 @@ border-radius: 10px;
 #products p {
     padding: 0 20px;
 }
+
+
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 
 #photo_one{
-    background: url(../images/tango_1.jpg) no-repeat top center;
+    background: url(../images/tango_11.jpg) no-repeat top center;
    
     height: 200px;
-    width: 300px;
+    width: 370px;
    
     
 }
 #photo_two {
-    background: url(../images/bachata-praha-Bachata-dance.jpg) no-repeat top center;
+    background: url(../images/Bachata_1.jpg) no-repeat top center;
   
     height: 200px;
-    width: 300px;
+    width: 370px;
     
 }
 #photo_three {
     background: url(../images/groom-bride-dance.jpg) no-repeat top center;
   
     height: 200px;
-    width: 300px;
+    width: 370px;
     
     
 }
