@@ -447,7 +447,7 @@ footer a {
     }
 
     #quote> p {
-        font-size: 40px;
+        font-size: 30px;
         
     }
 
@@ -545,11 +545,12 @@ footer a {
                  #quote {
                      width: 40%;
                      right: 80px;
-                     font-size: 160%;
+                     font-size: 150%;
+                     padding: 30x;
         
                  }
              #main_photo{
-                height: 850px;
+                height: 750px;
 
              }
 
