@@ -139,15 +139,28 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
+![Deployment](assets/images/deployment.PNG)
+
 The live link can be found here - [Dancing Club](https://alsona1188.github.io/dancing-club/index.html)
 
 <br>
+
+### **To create a local clone of this project**
+
+The method from cloning a project from GitHub is below:
+
+1. Under the repository’s name, click on the **code** tab.
+2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
+3. In your IDE of choice, open **Git Bash**.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
+
 <hr>
 
 
 ## Credits
 <br>
-
 
 ### Content
 
@@ -162,7 +175,14 @@ The live link can be found here - [Dancing Club](https://alsona1188.github.io/da
 
 - The photos used on the website are taken from [Freepik](https://www.freepik.com/search?format=search&page=7&query=latin+dance+group+people&type=photo)
 
+<hr>
+<br>
 
+# Acknowledgements
+
+The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. 
+
+Alsona Natsi 2023.
 
 
 
