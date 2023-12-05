@@ -175,7 +175,7 @@ hr {
 }
 
 #photo_one{
-    background: url(../images/tango_11.jpg) no-repeat top center;
+    background: url(../images/tango_11.jpg) no-repeat center;
    
     height: 200px;
     width: 370px;
@@ -183,14 +183,14 @@ hr {
     
 }
 #photo_two {
-    background: url(../images/Bachata_1.jpg) no-repeat top center;
+    background: url(../images/Bachata_1.jpg) no-repeat center;
   
     height: 200px;
     width: 370px;
     
 }
 #photo_three {
-    background: url(../images/groom-bride-dance.jpg) no-repeat top center;
+    background: url(../images/groom-bride-dance.jpg) no-repeat center;
   
     height: 200px;
     width: 370px;
@@ -566,7 +566,9 @@ footer a {
            display: flex;
                                                        
            }
-         
+
+
+
     /* Sign up page*/
        
    #signup {
